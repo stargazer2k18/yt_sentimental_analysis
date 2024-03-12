@@ -12,7 +12,6 @@ library(tidytext)
 # User interface      #
 #######################
 
-# Define UI for application that draws a histogram
 ui <- dashboardPage(
   
   dashboardHeader(title = "Sentimental Analysis"),
@@ -90,7 +89,9 @@ comments and visualize the results in a pie chart."),
 
 )
 
-# Define server logic required to draw a histogram
+#######################
+# Server Function     #
+#######################
 server <- function(input, output) {
   
   # Obtaining the comments section from the YT video
