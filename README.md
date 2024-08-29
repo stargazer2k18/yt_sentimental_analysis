@@ -35,5 +35,5 @@ To run this application locally, follow theses steps:
 3. Install the necessary **R packages** by running the following command in RStudio:
 
 ```
-install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "tidyverse", "vosonSML", "syuzhet", "highcharter", "tidytext", "wordcloud2", "ggplot2")
+install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "tidyverse", "vosonSML", "syuzhet", "highcharter", "tidytext", "wordcloud2")
 ```
